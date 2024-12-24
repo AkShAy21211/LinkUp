@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*",],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'auth-bg': "url('./src/assets/images/bg/auth-bg.jpg')",
+
+      }
+    },
   },
   plugins: [],
   content: [
